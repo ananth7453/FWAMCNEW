@@ -1,0 +1,20 @@
+{
+  "platform-version": "2.3",
+  "product": {
+    "freshworks_crm": {
+      "events": {
+        "onContactUpdate": {
+          "handler": "onContactUpdateHandler"
+        }
+      }
+    }
+  },
+  "dependencies":{
+    "axios":"0.27.2",
+    "qs":"6.11.2"
+  },
+  "engines": {
+    "node": "18.19.0",
+    "fdk": "9.0.6"
+  }
+}

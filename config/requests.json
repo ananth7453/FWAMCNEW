@@ -1,0 +1,10 @@
+{
+    "getToken": {
+        "schema": {
+            "protocol": "https",
+            "method": "POST",
+            "host": "login.microsoftonline.com",
+            "path": "/elgi.onmicrosoft.com/oauth2/token"
+        }
+    }
+}
